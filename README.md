@@ -5,6 +5,7 @@ This is small awk snippet which takes the Files from the find command where it l
 
 I have two scripts with almost the same name:
 a) FileSize_per_User.sh  <-- this does what i described above
+
 b) FileSize_per_User1.sh <-- this just incorporates a flexibility to choose the files between the 2 diffrent years 
  
 # Below is the output of both the script's which gives you nicer view as follows.
