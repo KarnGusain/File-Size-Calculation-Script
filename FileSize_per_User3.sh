@@ -12,7 +12,7 @@ printf "File-system Reporting For /home/karn  Mount\n"
 printf "_____________________________________________\n"
 printf "\n"
 FILE="/tmp/logs.txt"
-/bin/find /home/karn/ -xdev -size +1M -exec ls -aGl {} \; >> "$FILE"
+/bin/find /data1 -xdev -size +1M -exec ls -aGl {} \; >> "$FILE"
 /bin/awk -vusrfmt="User %-30s Total Space consumed: %11.6f GB\n" \
          -vsumfmt=$( printf "=%.0s" {1..72} )"\nTotal Space consumed by All Users: %35.6f GB\n"  '
   {
