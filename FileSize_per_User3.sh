@@ -1,3 +1,11 @@
+    
+# This is small awk snippet which takes the Files "$FILE" variable and "$FILE" gets the feed from find command 
+# where it looks the file Size more than 1MB and list them with the all the information except the group.
+# However, It sorts the file owner and based on that aggregats the size consumed by that particulat user 
+# and displays that along and at the end summrises the total size consumed by all the users for the mount.
+# Please visit the readme section for output Result example.
+# This is Just another awk variant of the script!
+
 #!/bin/bash
 printf "\n"
 printf "File-system Reporting For /home/karn  Mount\n"
